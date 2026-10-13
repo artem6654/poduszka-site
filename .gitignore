@@ -19,4 +19,3 @@
 
 # Vercel: локальная привязка проекта
 .vercel
-.env*.local
