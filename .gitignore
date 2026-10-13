@@ -16,3 +16,6 @@
 
 # lokalne dane: zamówienia, skrzynka e-maili (tryb deweloperski)
 /.data/
+
+# Vercel: локальная привязка проекта
+.vercel
