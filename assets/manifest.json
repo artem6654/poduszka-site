@@ -1,0 +1,148 @@
+{
+  "project": "Poduszka (robocza marka: Sonno)",
+  "generatedAt": "2026-10-13",
+  "generator": {
+    "tool": "OpenArt CLI 0.1.1 (openart generate image / openart generate video)",
+    "imageModel": "nano-banana-2 (1K, 1:1, bez parametru proporcji w CLI, kadrowanie wykonano w projekcie)",
+    "videoModel": "veo3-1 (image2video, zdjęcie startowe z wcześniejszego kadru, audio usunięte podczas kodowania)",
+    "creditsListPrice": {
+      "image": "20 kredytów za obraz (nano-banana-2, konfiguracja domyślna)",
+      "video": "120 kredytów za wideo wg cennika modelu (rzeczywisty koszt zależy od długości i trybu, sprawdź w panelu OpenArt)"
+    }
+  },
+  "productReference": {
+    "source": "Opis produktu i zdjęcie z ogłoszenia sprzedawcy (wymiary 63 × 41 × 14 cm, pianka PU Memory Foam ok. 45 kg/m³, biały / szary, pokrowiec poliestrowy zdejmowany). Zdjęcie użyte wyłącznie do oceny kształtu, nie zostało pobrane ani wykorzystane jako materiał referencyjny.",
+    "verificationNeeded": [
+      "Obrazy AI przedstawiają profil w kształcie motyla zgodny z opisem i zdjęciem ogłoszenia, ale nie są zdjęciami produktu.",
+      "Przed użyciem w reklamach zastąp je prawdziwymi zdjęciami produktu.",
+      "Wszystkie wymiary podane w serwisie są przybliżone i pochodzą z opisu sprzedawcy."
+    ]
+  },
+  "images": [
+    {
+      "file": "public/images/hero-bedroom-square.webp",
+      "purpose": "Hero (arch, 1:1), Open Graph i Twitter card",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Editorial product photo, butterfly-shaped contour pillow on linen bedding, natural daylight, no text or people." },
+      "dimensions": "1024×1024",
+      "notes": "Oryginał PNG: 1024×1024. Plik WebP q82."
+    },
+    {
+      "file": "public/images/hero-bedroom-16x9.webp",
+      "purpose": "Poster wideo w sekcji filmowej oraz punkt startowy wideo kinowego",
+      "source": "derived",
+      "derivedFrom": "public/images/hero-bedroom-square.webp (kadr 1024×576, wycinek od y=297)",
+      "dimensions": "1024×576"
+    },
+    {
+      "file": "public/images/product-ivory-studio.webp",
+      "purpose": "Zdjęcie produktu na kremowym tle, sekcja „Zdejmowany pokrowiec”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Studio product photo, seamless warm ivory background, three-quarter view, soft diffused light." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/detail-contour-fabric.webp",
+      "purpose": "Zbliżenie na kontur i tkaninę pokrowca, sekcja „Kształt”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Macro close-up of the grey cover weave and sculpted central cradle." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/lifestyle-resting-person.webp",
+      "purpose": "Sekcja narracyjna „Komfort, od którego zaczyna się dobry odpoczynek.”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Calm adult resting in bed with head on the pillow, eyes closed, warm morning light." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/sleep-side-position.webp",
+      "purpose": "Pozycja snu na boku, sekcja „Na co dzień”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Person sleeping on their side, head on the pillow, camera at bed level." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/sleep-back-position.webp",
+      "purpose": "Pozycja snu na plecach, sekcja „Na co dzień”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Person lying flat on their back, head centred on the pillow, arms along the body. Wersja 2 (pierwsza wersja pokazywała spanie na boku)." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/bundle-two-pillows.webp",
+      "purpose": "Zestaw 2 szt. w sekcji końcowego zakupu",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Two identical pillows side by side on ivory linen." },
+      "dimensions": "1024×1024"
+    },
+    {
+      "file": "public/images/editorial-bedroom-wide.webp",
+      "purpose": "Szeroka scena sypialni, sekcja „Spokojna sypialnia”",
+      "source": "generated",
+      "generation": { "model": "nano-banana-2", "mode": "text2image", "promptSummary": "Wide minimalist bedroom with warm sand walls, linen bedding, one pillow at the head of the bed." },
+      "dimensions": "1024×1024",
+      "notes": "Na desktopie kadrowane do 16:9."
+    }
+  ],
+  "videos": [
+    {
+      "file": "public/videos/cinematic-pillow-16x9.mp4",
+      "purpose": "Sekcja filmowa na stronie (H.264, 1280×720, bez dźwięku, faststart)",
+      "source": "generated",
+      "generation": { "model": "veo3-1", "mode": "image2video", "duration": "8 s", "aspectRatio": "16:9", "resolution": "1080p (źródło)", "startFrame": "public/images/hero-bedroom-16x9.webp", "promptSummary": "Slow push-in, dust motes in window light, pillow stays still." },
+      "dimensions": "1280×720",
+      "notes": "Wersja WebM (VP9) obok. Ścieżka dźwięku została usunięta podczas kodowania."
+    },
+    {
+      "file": "public/videos/cinematic-pillow-16x9.webm",
+      "purpose": "Wersja VP9 filmu sekcji filmowej",
+      "source": "derived",
+      "derivedFrom": "public/videos/cinematic-pillow-16x9.mp4 (źródło 1080p)"
+    },
+    {
+      "file": "public/videos/ads/ad_vertical_01_produkt_9x16.mp4",
+      "purpose": "Reklama pionowa 9:16 (Reels, TikTok), wariant produktowy",
+      "source": "generated",
+      "generation": { "model": "veo3-1", "mode": "image2video", "duration": "6 s", "aspectRatio": "9:16", "resolution": "1080p", "startFrame": "vstart_product_v3 (1080×1920, kadr kwadratowy z rozmytym tłem z górnej i dolnej krawędzi)", "promptSummary": "Slow orbit around the pillow on warm ivory surface." },
+      "dimensions": "1080×1920",
+      "notes": "Bez dźwięku. Bez tekstu w kadrze, nagłówki dodaj w edytorze."
+    },
+    {
+      "file": "public/videos/ads/ad_vertical_02_zestaw_9x16.mp4",
+      "purpose": "Reklama pionowa 9:16, wariant zestawu 2 szt.",
+      "source": "generated",
+      "generation": { "model": "veo3-1", "mode": "image2video", "duration": "6 s", "aspectRatio": "9:16", "resolution": "1080p", "startFrame": "vstart_bundle_v3", "promptSummary": "Camera glides forward between two pillows, warm window light." },
+      "dimensions": "1080×1920",
+      "notes": "Bez dźwięku. Bez tekstu w kadrze."
+    },
+    {
+      "file": "public/videos/ads/ad_vertical_03_detal_9x16.mp4",
+      "purpose": "Reklama pionowa 9:16, wariant detalu materiału",
+      "source": "generated",
+      "generation": { "model": "veo3-1", "mode": "image2video", "duration": "6 s", "aspectRatio": "9:16", "resolution": "1080p", "startFrame": "vstart_detail_v3", "promptSummary": "Macro-style push along the grey cover and contour." },
+      "dimensions": "1080×1920",
+      "notes": "Bez dźwięku. Bez tekstu w kadrze."
+    }
+  ],
+  "notGenerated": [
+    {
+      "item": "Wizualizacja wymiarów (63 × 41 × 14 cm)",
+      "how": "Rysunek SVG w components/DimensionDiagram.tsx, skala 1 cm = 6,9 px. Wartości pochodzą z config/store.ts, bo model graficzny nie zapisze wymiarów poprawnie.",
+      "file": "components/DimensionDiagram.tsx"
+    },
+    {
+      "item": "Ikony korzyści",
+      "how": "Proste ikony SVG (components/Icons.tsx), bez AI."
+    },
+    {
+      "item": "Favicon",
+      "how": "app/icon.svg, znak neutralny, do podmiany razem z marką."
+    }
+  ],
+  "knownLimitations": [
+    "Obrazy i wideo są generowane przez AI. Kształt poduszki jest zbliżony do zdjęcia ogłoszenia, ale nie identyczny. Nie używaj ich w reklamach bez weryfikacji lub zastąpienia zdjęciami produktu.",
+    "Model obrazów nie przyjmuje proporcji w CLI, więc obrazy są w 1:1 i kadrowane w projekcie.",
+    "Wideo bez dźwięku. Ścieżka audio wygenerowana przez model została usunięta, bo nie była kontrolowana."
+  ]
+}
